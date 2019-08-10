@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+header{
+    border: 1px solid #b5b7ba;
+    background-color: #DFDEDF;
+    min-width: 1280px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+body{
+    font-family: "Dancing Script";
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.social{
+ position: fixed;
+ top: 250px;
+ left: 0;
+ z-index: 1000;
+}  
+.dws-button{
+ background-color: #3b5998;
+ width: 40px;
+ height: 25px;
+ padding: 5px;
+ overflow:hidden;
+ transition: all 0.5s;
+}  
+
+.dws-youtube {background-color: #e62117;}
+
+.txt{
+    font-size: 29px;
+    color: #727797;
+    padding: 30px;
+}
+
+a{
+ color: #fff;
+ text-decoration:none;
+}    
+a i.fa {
+ font-size: 25px;
+ text-align: center;
+ display: block;
+}    
+
+.dws-share{
+ float: left;
+ width: 40px;
+}    
+.dws-text{
+ float: right;
+ font-size: 20px;
+ position: relative;
+ top: 2px;
+ right: 5px;
+}    
+.dws-vk {background-color: #507299;}
+
+.dws-button:hover{
+ width: 50px;
+ padding-left: 15px;
+}    
+.dws-vk:hover,.dws-youtube:hover, .dws-ds:hover{width:125px;}     
+
+table{
+    background-color: #DFDEDF;
+    font-size: 50p;
+    letter-spacing: 2px;
+}
+
+.pokaz{
+    text-align: center;
+    color: floralwhite;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    
+}
+
+.dws-ds{background-color: #7289DA;}
+
+.avatarka{
+ float: right;
+ position: relative;
+ top: -50px;
+ right: 5px;
+}
+
+.ava{
+     position:relative;
+     left: 540px;
+     top: -10px;
+     right: 5px;
+}
+
+
+
